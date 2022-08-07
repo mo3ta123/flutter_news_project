@@ -125,7 +125,7 @@ class _DrawerScreenState extends State<DrawerScreen> {
           : ListView.builder(
               itemCount: _list.length,
               itemBuilder: ((context, index) {
-                return PageTile(jsonMap: _list[index]);
+                return PostTile(jsonMap: _list[index]);
               }),
             ),
     );
